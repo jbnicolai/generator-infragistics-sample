@@ -10,8 +10,30 @@ This generator includes files you'll find helpful in getting started publishing 
 
 4. **index.html**: The `index.html` file is stubbed out with references to the trial version of [Ignite UI](http://igniteui.com) and CDN references to libraries like jQuery, Modernizr, Bootstrap and Font Awesome. There is also a `meta name="viewport"` tag in the `head`. If you do not want your sample to be responsive then you might want to remove that element.
 
+## Getting Started
+To use, you have to first install [Yeoman](http://yeoman.io). If you don't have it installed yet, run:
+
+```
+npm install -g yo
+```
+
+### Installing the Infragistics Sample Generator
+
+Just run:
+```
+npm install -g generator-infragistics-sample
+```
+
+### Using the Infragistics Sample Generator
+In the directory that you want to create your sample, run: 
+```
+yo infragistics-sample
+```
+
 ---
 # Tips
+As you are building your sample there are a few tips that may help you as you publish your repository on GitHub.
+
 ## Using Raw Files
 Whether you are attempting to directly access an image loaded into your repository or if you want to run the code in your sample directly off GitHub - you need to be aware of how to use raw GitHub files.
 
@@ -23,8 +45,8 @@ To get to the raw file (or in this case a file you can run directly in the brows
 
 [http://rawgithub.com/Infragistics-Blogs/iggrid-column-templates/blob/index.html](http://rawgithub.com/Infragistics-Blogs/iggrid-column-templates/master/index.html)
 
-**Note:** You'll often want to change the protocol from `https` to `http`.
+> **Note:** You'll often want to change the protocol from `https` to `http`.
 
 
 ## Data URIs for Images
-In an effort to make your code more portable you may want to consider using [data URIs instead of images](http://css-tricks.com/data-uris/). You can use these in CSS or even as the value for the `src` attribute of an `img` element. [Generating code for data URIs is easy](http://websemantics.co.uk/online_tools/image_to_data_uri_convertor/). For an example of how you may want to use a data URI check out the [sample data in this sample](https://github.com/Infragistics-Blogs/iggrid-column-templates/blob/master/index.html).  
+In an effort to make your code more portable you may want to consider using [data URIs instead of images](http://css-tricks.com/data-uris/). You can use these in CSS or even as the value for the `src` attribute of an `img` element. [Generating code for data URIs is easy](http://websemantics.co.uk/online_tools/image_to_data_uri_convertor/). For an example of how you may want to use a data URI check out the [sample data in this sample](https://github.com/Infragistics-Blogs/iggrid-column-templates/blob/master/index.html).
